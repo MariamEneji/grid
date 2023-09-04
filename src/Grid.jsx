@@ -11,10 +11,10 @@ const Grid = ({ numRows, numCols }) => {
 
 
 
-{range(numRows).map((rowIndex) => (
+{range(numCols).map((rowIndex) => (
 
         <div className="row" key={rowIndex}>
-          {range(numCols).map((colIndex) => (
+          {range(numRows).map((colIndex) => (
             <div className="cell h-[100px] w-[100px]  border-2 m-4  border-gray-400 rounded-md" key={colIndex}></div>
           ))}
         </div>

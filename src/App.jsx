@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Grid
-      numRows={4} numCols={2} />
+      numRows={12} numCols={5} />
       
     </>
   )
